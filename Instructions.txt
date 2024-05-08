@@ -1,0 +1,77 @@
+Challenge 1: Cafe
+Komodo Café
+Komodo café is getting a new menu. The manager needs to be able to create new menu items, update menu items, delete existing menu items, as well as display a list of all items on the cafe's menu.
+
+You will be creating a Console Application as well as utilizing the Repository Pattern. All functionality in the repository will need unit test coverage.
+
+ 
+
+The Menu Items:
+A unique meal number, so customers can say "I'll have the #5"
+    --These can just be numbered options in a case. 
+    --Each one leads to a method for that item, and the method contains a description, the ingredients, the price (adds to a total) and then also builds a list of selected meal items
+    --After an item is added via going through its method, the user gets kicked back to the main menu
+    --Main menu will have the "checkout" option or the "cancel order" option for when user is done.
+    --cancel order erases all list
+
+A meal name
+
+A description
+
+A list of ingredients
+
+A price
+ 
+
+Your Task:
+Create a Class for the menu items with properties, constructors, and fields.
+Create a Class for the repository that houses the required methods.
+Create a Test Class with coverage for your entire repository functionality.
+Create a Program file that allows the café manager to add, delete, and see all items in the menu list.
+
+Meals:
+
+"The Thin Lizzy":
+mealID = "#1"
+description = "A smaller meal for the calorie conscious critter!"
+ingredients = "6pc. Iguana Bites, Small Fry, and a Small Drink"
+price = $7.99
+
+"The Go-Gator"
+mealID = "#2"
+description = "A hearty meal to get you through another day in the swamp!"
+ingredients = "12pc. Gator Strips, Medium Fry, and a Medium Drink"
+price = $12.99
+
+"The Komodo Kombo"
+mealID = "#3"
+description = "A big serving of meat, with an extra treat! Perfect for splitting."
+ingredients = "2lb of Fried Komodo Belly, Large Fry, and a Large Drink"
+price: $17.99
+
+"The Gut-Zilla"
+mealID = "#4"   
+description = "The largest serving of reptile meat we can legally sell! Ideal for parties."
+ingredients = "One whole fried alligator, XL Fry, and a Mop-Bucket of Cola"
+price = $49.99
+
+UI inclusions:
+
+CreateNewMenuItem()
+//Creates a new meal option 
+// create mealID, create description, add ingredients, set price
+//Adds this new item to the switch as a new case(?)
+
+
+UpdateMenuItem()
+//Add or Remove ingredients from a menu item, or change it's price/ID/Name/etc
+//! Make the ingredients a string, easier than making all kinds of objects since customers only order meals from a case
+
+DeleteMenuItem()
+//Remove an entire item by mealID
+//Removes or hides the case from the menu switch
+
+ViewAllMenuItems()
+//See every current menu item
+// It's ID and name in the top line
+// its description in a new line, it's ingredients in a new line, and its price in a new line
