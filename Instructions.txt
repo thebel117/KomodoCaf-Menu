@@ -29,6 +29,9 @@ Create a Class for the repository that houses the required methods.
 Create a Test Class with coverage for your entire repository functionality.
 Create a Program file that allows the café manager to add, delete, and see all items in the menu list.
 
+
+PREP NOTES-------------------------------------------------------------------------------------------------------------------------
+
 Meals:
 
 "The Thin Lizzy":

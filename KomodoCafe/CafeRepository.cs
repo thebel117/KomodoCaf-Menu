@@ -21,7 +21,7 @@ namespace KomodoCafe
             // Add initial menu items here
             AddMenuItem(1, "The Thin Lizzy", "A smaller meal for the calorie conscious critter!", "6pc. Iguana Bites, Small Fry, and a Small Drink", 7.99m);
             AddMenuItem(2, "The Go-Gator", "A hearty meal to get you through another day in the swamp!", "12pc. Gator Strips, Medium Fry, and a Medium Drink", 12.99m);
-            AddMenuItem(3, "The Komodo Kombo", "A big serving of meat, with an extra treat! Perfect for splitting.", "2lb of Fried Komodo Belly, Large Fry, and a Large Drink", 17.99m);
+            AddMenuItem(3, "The Komodo Kombo", "A big serving of meat, with an extra treat! Perfect for splitting.", "2lb of Fried Komodo Belly, Large Fry, a Large Drink, and a Candied Gecko", 17.99m);
             AddMenuItem(4, "The Gut-Zilla", "The largest serving of reptile meat we can legally sell! Ideal for parties.", "One whole fried alligator, XL Fry, and a Mop-Bucket of Cola", 49.99m);
         }
 
@@ -65,4 +65,4 @@ namespace KomodoCafe
             return menuItems;
         }
     }
-}
+};

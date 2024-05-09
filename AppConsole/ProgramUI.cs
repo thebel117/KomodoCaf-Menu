@@ -11,11 +11,7 @@ namespace CafeApp
         {
             System.Console.WriteLine("Welcome to the Komodo Cafe Menu Management System!");
 
-            //SEED DATA HERE//
-            //SEED DATA HERE//
-            //SEED DATA HERE//
-            //SEED DATA HERE//
-            //SEED DATA HERE//
+            //!ADD SEED DATA IN REPO THIS TIME//
 
             while (true)
             {
